@@ -1,0 +1,55 @@
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin:2rem 0;
+    background-color: rgb(32, 135, 224);
+    width:70vw;
+}
+
+#cat_text,#cat_number{
+
+    width:15rem !important;
+}
+
+.input1,.input2{
+    display:flex;
+    flex-direction: column;
+}
+
+.btn1,.btn2 {
+
+    margin-left: 1rem;
+   
+}
+
+.btns{
+    display:flex;
+    flex-direction:row;
+}
+.row_class{
+    margin-top:2rem !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_div{
+    height:30vh;
+    width:30vw;
+    background-color: rgb(220, 52, 69)!important;
+    display:grid;
+    gap:2px!important;
+    margin-right:5px;
+    overflow:hidden;
+}
+
+.image_div img{
+    overflow:hidden;
+    object-fit: cover;
+    height:30vh;
+    width:30vw;
+    display:grid;
+    gap:2px!important;
+    margin-right:5px;
+}
